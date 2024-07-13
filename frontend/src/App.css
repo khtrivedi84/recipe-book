@@ -1,0 +1,79 @@
+/* App.css */
+
+/* Define color variables */
+:root {
+  --primary-color: #FF7F3F;
+  --gradient-bg: linear-gradient(to right, #FF7F3F, #FFC1A1);
+  --text-color: #FFFFFF;
+  --header-color: #000000;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background: var(--gradient-bg);
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  background: var(--gradient-bg);
+}
+
+.navbar-brand {
+  color: var(--text-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #e66a29;
+  border-color: #e66a29;
+}
+
+.card-header {
+  background: var(--primary-color);
+  color: var(--text-color);
+}
+
+.card-body {
+  background: #fff5eb;
+}
